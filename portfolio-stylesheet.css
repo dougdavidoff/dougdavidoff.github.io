@@ -67,6 +67,23 @@ p {
     color: #777777;
 }
 
+.item {
+    float: left;
+    background: #4aaaa5;
+    height: 200px;
+    width: 300px;
+}
+
+.item1 {
+    margin: 20px 10px 10px 20px;
+}
+
+.item2 {
+    margin: 20px 10px 10px 10px;
+}
+
+
+
 .page-footer {
     background-color: #666666;
     height: 75px;
