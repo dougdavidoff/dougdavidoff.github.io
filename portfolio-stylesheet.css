@@ -1,5 +1,6 @@
 body {
     background-color: #ffffff;
+    background-image: url (images/light-grey-terrazzo.png);
 }
 
 .header-stripe {
@@ -13,7 +14,6 @@ body {
 .header-wrapper {
     width: 960px;
     margin: 0 auto;
-    background-image: url (images/light-grey-terrazzo.png);
 }
 
 .name-logo {
