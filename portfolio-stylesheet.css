@@ -1,0 +1,58 @@
+body {
+    background-color: #ffffff;
+}
+
+.header-stripe {
+    background-color: orange;
+    width: 100%;
+    height: 35px;
+    border-bottom-width: thin;
+    border-bottom-color: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.header-wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.name-logo {
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    font-size: 24px;
+}
+
+.topnav  {
+    float: right;
+    font-size: 11px;
+}
+
+.content {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+    margin: 0 auto;
+    font-size: 14pt;
+}
+.content-headline {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+    color: #777777;
+}
+
+.page-footer {
+    background-color: #666666;
+    height: 35px;
+    border-top-color: #dddddd;
+    border-top-width: 7px; 
+}
+
+.content-image {
+    border: thin black;
+    float: left;
+    margin-right: 10px;
+
+}
