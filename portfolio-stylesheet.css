@@ -3,29 +3,52 @@ body {
 }
 
 .header-stripe {
-    background-color: orange;
+    background-color: #ffffff;
     width: 100%;
-    height: 35px;
-    border-bottom-width: thin;
-    border-bottom-color: #cccccc;
+    height: 75px;
+    border-bottom: solid red     2px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .header-wrapper {
     width: 960px;
     margin: 0 auto;
+    background-image: url (images/light-grey-terrazzo.png);
 }
 
 .name-logo {
     background-color: #4aaaa5;
     color: white;
     float: left;
-    font-size: 24px;
+    font-size: 28px;
+    padding: 20.5px;
 }
 
 .topnav  {
     float: right;
-    font-size: 11px;
+    font-size: 14px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #777777;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
 }
 
 .content {
@@ -33,6 +56,7 @@ body {
     width: 960px;
     margin: 0 auto;
     font-size: 14pt;
+    line-height: 150%;
 }
 .content-headline {
     color: #4aaaa5;
@@ -45,11 +69,17 @@ p {
 
 .page-footer {
     background-color: #666666;
-    height: 35px;
-    border-top-color: #dddddd;
-    border-top-width: 7px; 
+    height: 75px;
+    border-top: solid red 10px;
+    text-align: center; 
 }
 
+.page-footer p {
+    color: whitesmoke;
+    width: 960px;
+    display: inline-block;
+    padding: 15px 50px;
+}
 .content-image {
     border: thin black;
     float: left;
