@@ -135,17 +135,6 @@ input[type=text], select, textarea {
     padding: 20px;
   }
 
-.item {
-    float: left;
-    background: #4aaaa5;
-    height: 200px;
-    width: 300px;
-}
-
 .item1 {
     margin: 20px 10px 10px 20px;
-}
-
-.item2 {
-    margin: 20px 10px 10px 10px;
 }
