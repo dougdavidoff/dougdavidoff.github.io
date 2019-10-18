@@ -148,9 +148,9 @@ figure {
     border: thin #c0c0c0 solid;
     display: flex;
     flex-flow: column;
-    padding: 5px;
     max-width: 220px;
     margin: auto;
+    position: relative;
 }
 
 img {
@@ -164,9 +164,18 @@ figcaption {
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
+    position: absolute;
+    width: 97%;
+    top: 110px;
 }
 
 .item {
     width: 200px;
     float: left;
+    margin: 10px 20px;
 }
+
+.item-set {
+    clear: both;
+    overflow: auto;
+    }
