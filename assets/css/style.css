@@ -53,6 +53,13 @@ body {
   font-weight: bold;
 }
 
+#sub-hed {
+  color: #2f9992;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: light;
+}
+
 #dtd-hedshot {
   float: left;
   width: 250px;
